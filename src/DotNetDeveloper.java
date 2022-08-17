@@ -1,3 +1,7 @@
+/**
+ * Class DotNetDeveloper
+ * Subclass of Employee(subclass of abstract class Person) that implements the interface Developer.
+ */
 public class DotNetDeveloper extends Employee implements Developer {
     // Properties
     private String favouriteLanguage = "C#";
@@ -16,5 +20,9 @@ public class DotNetDeveloper extends Employee implements Developer {
     @Override
     public void code() {
         System.out.println(this.getFirstName() + " starts writing beautiful " + favouriteLanguage + " code");
+    }
+    @Override
+    public String getFullName() {
+        return this.getFirstName() + " " + this.getLastName();
     }
 }

@@ -12,8 +12,12 @@ public class Main {
         employee1.greetEveryone();
         employee2.greetPerson(employee1);
         employee3.greetPerson(employee1);
+        System.out.println("-----------");
         employee1.startContest(theContest);
+        System.out.println("-----------");
         employee2.participateInCodingContest(theContest);
         employee3.participateInCodingContest(theContest);
+        System.out.println("-----------");
+        employee1.announceWinnerOfContest(theContest, employee3);
     }
 }

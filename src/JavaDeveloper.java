@@ -1,4 +1,7 @@
-
+/**
+ * Class JavaDeveloper
+ * Subclass of Employee(subclass of abstract class Person) that implements the interface Developer.
+ */
 public class JavaDeveloper extends Employee implements Developer {
     // Properties
     private String favouriteLanguage = "Java";
@@ -17,5 +20,10 @@ public class JavaDeveloper extends Employee implements Developer {
     @Override
     public void code() {
         System.out.println(this.getFirstName() + " starts writing beautiful " + favouriteLanguage + " code");
+    }
+
+    @Override
+    public String getFullName() {
+        return this.getFirstName() + " " + this.getLastName();
     }
 }
