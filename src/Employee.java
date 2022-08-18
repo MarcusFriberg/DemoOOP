@@ -9,7 +9,7 @@ public class Employee extends Person {
     private int employeeID;
     private int salary;
 
-    // Constructor
+    // Constructors
     public Employee(String firstName, String lastName, boolean happy, boolean busy) {
         // super-keyword will pass the incoming parameters to the constructor of the super class (Person)
         super(firstName, lastName, happy, busy);
@@ -30,7 +30,7 @@ public class Employee extends Person {
     /**
      * This method may require some explanation.
      * @param theContest this is an object initialized from the Contest-class. Just as we can pass something of a data type like int or String we can also
-     *                   pass an object from a class we have written on our own.
+     *                   pass an object from a class that we have created.
      */
     public void startContest(Contest theContest) {
         System.out.println(this.getFirstName() + ": Im proud to announce " + theContest.getContestName());
@@ -38,14 +38,14 @@ public class Employee extends Person {
 
     /**
      * This method may require some explanation. It takes two parameters as explained below
-     * @param theContest se method above...
-     * @param theDeveloper this is a really nice thing about interfaces. What we are looking to get here is the winner of the contest. But the winner could be either
-     *                     an instance of our class JavaDeveloper, but it could also, occasionally, be an instance of our DotNetDeveloper class. But both of those
+     * @param theContest se description in the method above...
+     * @param theDeveloper this is a really nice thing about interfaces. What we are looking to get here is the winner of the contest. But... the winner could be either
+     *                     an instance of our class(an object) JavaDeveloper, but it could also, occasionally, be an instance of our DotNetDeveloper class. But both of those
      *                     classes have something in common, they both implement the Developer interface, and we can use the Interface as data type of that parameter.
-     *                     Making the method accept an instance of any class as a parameter as long as it implements the Developer interface.
+     *                     Making the method accept an instance of any class(an object) as a parameter as long as it implements the Developer interface.
      *
      * The first part of the System.out.println is just to type out the name of the one speaking, and that would be the moderator of the contest.
-     * We have an object (theContest), that object have a property of type Employee as the moderator, so we first get the employee with theContest.getModerator(),
+     * We have an object (theContest), that object have a property of type Employee as the moderator, so we first get the employee object with theContest.getModerator(),
      * then we add .getFirstName() to get the firstName from that Employee-object.
      */
     public void announceWinnerOfContest(Contest theContest, Developer theDeveloper) {

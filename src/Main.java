@@ -1,3 +1,17 @@
+/**
+ * DESCRIPTION
+ * This is a small Java-project used in an OOP-class to visualize some key concepts in object-oriented programming.
+ * The Java code is kept at a very basic level that should be clear without deeper understanding of Java and only gets
+ * as advanced as needed to visualize the concepts and make the application work.
+ *
+ * ASSIGNMENT
+ * Clone this project from IntelliJ's launch screen. Look at the structure and the classes, read the comments, look
+ * for methods in the Employee, JavaDeveloper, DotNetDeveloper classes that are not used (method names in grey). Start
+ * by making some changes in the Main class to make use of the functions not in use. Then, try to add som methods to the
+ * classes and use them to make the interactions between the employee's more interesting.
+ *
+ * @author Marcus Friberg @ XLENT
+ */
 public class Main {
     public static void main(String[] args) {
         // Create some employees
