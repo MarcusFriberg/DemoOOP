@@ -1,5 +1,9 @@
+package interfaces;
+// Imports
+import classes.Contest;
+
 /**
- * Interface Developer, all Developer-classes that implements this interface must implement
+ * Interface interfaces.Developer, all interfaces.Developer-classes that implements this interface must implement
  * the methods of this interface.
  */
 public interface Developer {

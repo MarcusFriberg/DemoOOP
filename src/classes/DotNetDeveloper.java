@@ -1,6 +1,10 @@
+package classes;
+// Imports
+import interfaces.Developer;
+
 /**
- * Class DotNetDeveloper
- * Subclass of Employee(subclass of abstract class Person) that implements the interface Developer.
+ * Class classes.DotNetDeveloper
+ * Subclass of classes.Employee(subclass of abstract class abstractClasses.Person) that implements the interface interfaces.Developer.
  */
 public class DotNetDeveloper extends Employee implements Developer {
     // Properties

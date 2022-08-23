@@ -1,6 +1,10 @@
+package classes;
+// Imports
+import interfaces.Developer;
+
 /**
- * Class JavaDeveloper
- * Subclass of Employee(subclass of abstract class Person) that implements the interface Developer.
+ * Class classes.JavaDeveloper
+ * Subclass of classes.Employee(subclass of abstract class abstractClasses.Person) that implements the interface interfaces.Developer.
  */
 public class JavaDeveloper extends Employee implements Developer {
     // Properties
