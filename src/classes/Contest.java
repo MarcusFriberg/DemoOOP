@@ -1,9 +1,9 @@
 package classes;
 
 /**
- * Class classes.Contest
+ * Class Contest
  * A simple POJO(plain old java object)-class. Nothing fancy here, just a name and moderator of a contest
- * that any classes.Employee can start.
+ * that any Employee can start.
  */
 public class Contest {
     // Properties

@@ -3,8 +3,8 @@ package classes;
 import interfaces.Developer;
 
 /**
- * Class classes.JavaDeveloper
- * Subclass of classes.Employee(subclass of abstract class abstractClasses.Person) that implements the interface interfaces.Developer.
+ * Class JavaDeveloper
+ * Subclass of Employee(subclass of abstract class Person) that implements the interface Developer.
  */
 public class JavaDeveloper extends Employee implements Developer {
     // Properties

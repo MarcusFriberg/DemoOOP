@@ -12,7 +12,7 @@ import classes.JavaDeveloper;
  *
  * ASSIGNMENT
  * Clone this project from IntelliJ's launch screen. Look at the structure and the classes, read the comments, look
- * for methods in the classes.Employee, classes.JavaDeveloper, classes.DotNetDeveloper classes that are not used (method names in grey). Start
+ * for methods in the Employee, JavaDeveloper, DotNetDeveloper classes that are not used (method names in grey). Start
  * by making some changes in the Main class to make use of the functions not in use. Then, try to add som methods to the
  * classes and use them to make the interactions between the employee's more interesting.
  *
